@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #b2b0b0;
+}
+
+#canvas {
+    background-color: rgb(206, 205, 205);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+}
+
+#informationBox {
+    width: 35%;
+    background-color: #21e892;
+    margin: 1%;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+}

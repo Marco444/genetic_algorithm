@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <script type="module" src="game.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="favicon.ico"/>
+    <title>Genetic Algorithm Visualiser</title>
+</head>
+<body>
+<canvas id="canvas" width="800px" height="800px"></canvas>
+<div id="informationBox">
+    <b>
+        This is a small app made in vanilla javascript that simulates
+        a genetic algorithm.
+    </b>
+
+    <p>
+        On the upper left corner we can see the current generation of
+        the population as well as its average fitness. We define fitness
+        as how close a point, or individual, is to the box below.
+    </p>
+
+    <p>
+        As the generations pass we can see how the bulk of the points move
+        closer to the box, eventually having some points reach the box
+    </p>
+
+    <p><b> In general, </b> genetic algorithms work by defining an initial population,
+        with random characteristics. After some time the generation is evaluated based upon
+        a fitness function, and the fittest individuals of the population are more likely to
+        pass on the characteristics to the next generation. This repeats itself until either
+        the average fitness of the population is reached or a set number of generations happens.
+    </p>
+
+    <p><b> In particular, </b> in this implementation we define an initial population</p>
+</div>
+</body>
+</html>
