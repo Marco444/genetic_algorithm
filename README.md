@@ -1,6 +1,6 @@
 # Genetic Algorithm
 
-This is a small visualiser designed to better understand how genetic algorithms work, based upon John Fisch's work on youtube
+This is a small visualiser designed to better understand how genetic algorithms work, based upon John Fisch's work
 
 
 ## Project Structure
